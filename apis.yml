@@ -1,8 +1,27 @@
 aid: conexant-systems
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/conexant-systems.png
 name: Conexant Systems
-description: Conexant Systems is a company surfaced as a portfolio company of insight-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Conexant Systems, Inc. was an American fabless semiconductor company headquartered
+  in Irvine, California. Spun off from Rockwell Semiconductor Systems in 1999, it designed
+  mixed-signal and system-on-chip products for audio, voice, imaging, modem, and networking
+  applications, and was best known for its dial-up modem chipsets, audio codecs, and far-field
+  voice-input processors used in smart-home and IoT devices. Conexant''s audio and imaging
+  business was acquired by Synaptics in 2017 and the standalone Conexant brand has since been
+  retired. This profile was added to the API Evangelist network as a portfolio-company lead;
+  the company publishes no public developer portal, API, or machine-readable API surface (its
+  former conexant.com domain no longer resolves to an active site), so there are no API artifacts
+  to enrich at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/conexant-systems/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +29,29 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct-acquired
+x-acquired-by: synaptics
+x-acquired-year: '2017'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Semiconductors
+- Hardware
+- Audio
+- Voice
+- Modem
+- IoT
+- Chipsets
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
