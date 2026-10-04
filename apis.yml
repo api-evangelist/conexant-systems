@@ -40,7 +40,7 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
-x-status: defunct-acquired
+x-status: defunct
 x-acquired-by: synaptics
 x-acquired-year: '2017'
 specificationVersion: '0.23'
@@ -55,6 +55,7 @@ tags:
 - Modem
 - IoT
 - Chipsets
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
